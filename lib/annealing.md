@@ -4,6 +4,8 @@
   of a given function. It is often used to solve combinatorial optimization problems
   like the Traveling Salesman Problem, job scheduling, or circuit design.
 
+  # NOTE: This document is out of date.
+
   ## Strategy Behaviour
 
   To use this module, you must implement a strategy module that defines the problem-specific
