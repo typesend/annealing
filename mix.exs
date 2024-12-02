@@ -35,6 +35,10 @@ defmodule Annealing.MixProject do
   end
 
   defp deps do
-    [{:typed_struct, "~> 0.3.0"}, {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false}]
+    [
+      {:typed_struct, "~> 0.3.0"},
+      {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
+      {:ex_doc, "~> 0.35.1", only: [:dev, :test], runtime: false}
+    ]
   end
 end
